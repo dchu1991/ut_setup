@@ -1,0 +1,17 @@
+
+<TestStage name='Tester FW Check'>
+    <test name="Primary BMC version" func_name='checkBMC' pos='0' expected_ver="08.05.25"/>
+    <test name="Secondary BMC version" func_name='checkBMC' pos='1' expected_ver="08.05.25"/>
+    <test name="Primary SBIOS version" func_name='checkSBIOS' pos='0' expected_ver="15.27"/>
+    <test name="Secondary SBIOS version" func_name='checkSBIOS' pos='1' expected_ver="15.27"/>
+    <test name="Main Board CPLD version" func_name='checkMBFPGA' expected_ver="92 40"/>
+    <test name="Middle Plane FPGA version" func_name='checkMIDFPGA' expected_ver="10 7f"/>
+    <test name="PSU0 version" func_name='checkPSU' pos='0' expected_ver="3.1/3.1/3.1"/>
+    <test name="PSU1 version" func_name='checkPSU' pos='1' expected_ver="3.1/3.1/3.1"/>
+    <test name="PSU2 version" func_name='checkPSU' pos='2' expected_ver="3.1/3.1/3.1"/>
+    <test name="PSU3 version" func_name='checkPSU' pos='3' expected_ver="3.1/3.1/3.1"/>
+    <test name="PSU4 version" func_name='checkPSU' pos='4' expected_ver="3.1/3.1/3.1"/>
+    <test name="PSU5 version" func_name='checkPSU' pos='5' expected_ver="3.1/3.1/3.1"/>
+    <test name="Hostname" func_name='checkHostName' expected_ver="diagnostic-os"/>
+    <test name="OS version" func_name='checkOS' expected_ver="3.2"/>
+</TestStage>
