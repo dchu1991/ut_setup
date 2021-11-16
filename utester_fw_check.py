@@ -5,7 +5,7 @@ from xml.etree import ElementTree as ET
 from lib.test_info import TesterInfo
 
 
-def main() -> list:
+def main() -> None:
 
     if len(sys.argv) != 2:
         raise ValueError(
